@@ -12,6 +12,14 @@ on:
         required: false
         default: "false"
         type: string
+  workflow_call:
+    inputs:
+      logLevel:
+        required: false
+        type: string
+      overrideSchedule:
+        required: false
+        type: string
   schedule:
     - cron: '0 */6 * * *'
   push:
