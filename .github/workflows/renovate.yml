@@ -20,6 +20,9 @@ on:
       overrideSchedule:
         required: false
         type: string
+    secrets:
+        RENOVATE_GITHUB_TOKEN:
+          required: true
   schedule:
     - cron: '0 */6 * * *'
   push:
