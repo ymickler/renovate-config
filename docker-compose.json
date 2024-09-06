@@ -12,39 +12,35 @@
     "timezone":"Europe/Berlin",
     "separateMultipleMajor":true,
     "rebaseWhen":"conflicted",
-    "enabledManagers": ["npm"],
+    "enabledManagers": ["docker-compose"],
     "packageRules":[
        {
           "matchManagers":[
-             "npm"
+             "docker-compose"
+          ],
+          "matchUpdateTypes":[
+             "major"
           ],
           "labels":[
-             "node-minor-patch-update"
+             "docker-major-update"
+          ],
+          "pinDigests":true,
+          "branchTopic":"major",
+          "automerge": false
+       },
+       {
+          "matchManagers":[
+             "docker-compose"
           ],
           "matchUpdateTypes":[
              "minor",
              "patch"
           ],
-          "pinDigests":true,
-          "lockFileMaintenance":{
-             "enabled":true
-          },
-          "automerge": false
-       },
-       {
-          "matchManagers":[
-             "npm"
-          ],
           "labels":[
-             "node-major-update"
+             "docker-minor-patch-update"
           ],
-          "matchUpdateTypes":[
-             "major"
-          ],
-          "pinDigests": true,
-          "lockFileMaintenance":{
-             "enabled":true
-          },
+          "pinDigests":true,
+          "branchTopic":"minor-patch",
           "automerge": false
        }
     ]
