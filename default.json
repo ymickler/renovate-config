@@ -2,7 +2,7 @@
     "$schema":"https://docs.renovatebot.com/renovate-schema.json",
     "extends":[
        "config:recommended",
-       "local>ymickler/renovate-config:github-actions",
+       "local>ymickler/renovate-config:github-action",
        "local>ymickler/renovate-config:docker-compose",
        "local>ymickler/renovate-config:npm"
     ],
