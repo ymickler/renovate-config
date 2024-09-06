@@ -2,8 +2,8 @@
     "$schema":"https://docs.renovatebot.com/renovate-schema.json",
     "extends":[
        "config:recommended",
-       "local>docker-file",
-       "local>npm"
+       "local>ymickler/renovate-config:docker-compose",
+       "local>ymickler/renovate-config:npm"
     ],
     "vulnerabilityAlerts":{ 
        "labels":[
