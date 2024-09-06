@@ -21,7 +21,7 @@ on:
         required: false
         type: string
     secrets:
-        RENOVATE_GITHUB_TOKEN:
+        renovateGithubTokenInput:
           required: true
   schedule:
     - cron: '0 */6 * * *'
@@ -68,4 +68,4 @@ jobs:
           #RENOVATE_REPOSITORY_CACHE: true
         with:
           configurationFile: .github/renovate.json
-          token: ${{ secrets.RENOVATE_GITHUB_TOKEN }}
+          token: ${{ secrets.renovateGithubTokenInput }}
