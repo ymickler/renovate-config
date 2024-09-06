@@ -1,6 +1,6 @@
 name: Renovate
 on:
-  reusable_workflow_job:
+  workflow_dispatch:
     inputs:
       logLevel:
         description: Override default log level
