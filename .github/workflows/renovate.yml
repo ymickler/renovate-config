@@ -23,11 +23,6 @@ on:
     secrets:
         renovateGithubTokenInput:
           required: true
-  schedule:
-    - cron: '0 */6 * * *'
-  push:
-    branches:
-      - main
 concurrency: renovate
 jobs:
   renovate:
