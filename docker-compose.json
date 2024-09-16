@@ -8,9 +8,7 @@
           "security"
        ]
     },
-    "prConcurrentLimit":30,
     "timezone":"Europe/Berlin",
-    "separateMultipleMajor":true,
     "rebaseWhen":"conflicted",
     "enabledManagers": ["docker-compose"],
     "packageRules":[
@@ -24,7 +22,6 @@
           "labels":[
              "docker-major-update"
           ],
-          "pinDigests":true,
           "branchTopic":"major",
           "automerge": false
        },
@@ -39,7 +36,6 @@
           "labels":[
              "docker-minor-patch-update"
           ],
-          "pinDigests":true,
           "branchTopic":"minor-patch",
           "automerge": false
        }
