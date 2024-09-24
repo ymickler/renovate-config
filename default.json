@@ -11,10 +11,11 @@
           "security"
        ]
     },
-    "prConcurrentLimit":30,
+    "prConcurrentLimit":5,
     "timezone":"Europe/Berlin",
     "separateMultipleMajor":true,
     "rebaseWhen":"conflicted",
+    "recreateWhen": "always",
     "packageRules":[
        {
           "matchManagers":[
