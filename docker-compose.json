@@ -3,6 +3,7 @@
     "extends":[
        "local>ymickler/renovate-config:base"
     ],
+    "enabledManagers": ["docker-compose"],
     "packageRules":[
        {
           "matchManagers":[
