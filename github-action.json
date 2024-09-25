@@ -3,6 +3,7 @@
     "extends":[
        "local>ymickler/renovate-config:base"
     ],
+    "enabledManagers": ["github-actions"],
     "packageRules":[
        {
           "matchManagers":[
