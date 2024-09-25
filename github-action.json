@@ -1,18 +1,8 @@
 {
     "$schema":"https://docs.renovatebot.com/renovate-schema.json",
     "extends":[
-       "config:recommended"
+       "local>ymickler/renovate-config:base"
     ],
-    "vulnerabilityAlerts":{ 
-       "labels":[
-          "security"
-       ]
-    },
-    "prConcurrentLimit":30,
-    "timezone":"Europe/Berlin",
-    "separateMultipleMajor":true,
-    "rebaseWhen":"conflicted",
-    "enabledManagers": ["github-actions"],
     "packageRules":[
        {
           "matchManagers":[
