@@ -1,16 +1,8 @@
 {
     "$schema":"https://docs.renovatebot.com/renovate-schema.json",
     "extends":[
-       "config:recommended"
+       "local>ymickler/renovate-config:base"
     ],
-    "vulnerabilityAlerts":{ 
-       "labels":[
-          "security"
-       ]
-    },
-    "timezone":"Europe/Berlin",
-    "rebaseWhen":"conflicted",
-    "enabledManagers": ["docker-compose"],
     "packageRules":[
        {
           "matchManagers":[
