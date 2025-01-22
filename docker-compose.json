@@ -32,5 +32,13 @@
           "branchTopic":"minor-patch",
           "automerge": false
        }
-    ]
+    ],
+    "hostRules": [
+    {
+      "hostType": "docker",
+      "matchHost": "ghcr.io",
+      "username": "ymickler",
+      "password": "saKNsQd822y2",
+    }
+  ]
  }
