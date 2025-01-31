@@ -16,6 +16,8 @@
           "labels":[
              "action-minor-patch-update"
           ],
+          "groupName": "GitHub Actions Updates"",
+          "groupSlug": "gitHub-actions-updates"",
           "pinDigests":true,
           "automerge": false
        },
