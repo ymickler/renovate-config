@@ -29,8 +29,8 @@
           "labels":[
              "docker-minor-patch-update"
           ],
-          "groupName": "Docker compose updates",
-          "groupSlug": "docker-compose-updates",
+          "groupName": "Docker compose minor & patch",
+          "groupSlug": "docker-compose-minor-patch",
           "branchTopic":"minor-patch",
           "automerge": false
        }
