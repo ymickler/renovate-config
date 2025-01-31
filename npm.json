@@ -16,6 +16,8 @@
              "minor",
              "patch"
           ],
+          "groupName": "Node updates",
+          "groupSlug": "node-updates",
           "pinDigests":true,
           "lockFileMaintenance":{
              "enabled":true
