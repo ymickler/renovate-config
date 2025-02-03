@@ -4,7 +4,7 @@
        "local>ymickler/renovate-config:base"
     ],
     "description": "This cron expression schedules a task to run daily at 12 AM and 12 PM",
-    "schedule": ["0 0,12 * * *"]
+    "schedule": ["0 0,12 * * *"],
     "enabledManagers": ["npm"],
     "packageRules":[
        {
