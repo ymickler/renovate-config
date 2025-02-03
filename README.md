@@ -1,10 +1,10 @@
 # renovate-config
 
-Dieses Repository enthält Shareable Config Presets für: [Renovate Github App](https://developer.mend.io/github/ymickler)
+This repository contains shareable config presets for: [Renovate Github App](https://developer.mend.io/github/ymickler)
 
 ## Verwendung
 
-Um eine der Konfigurationen in Ihrem Projekt zu verwenden, fügen Sie einfach die entsprechende Konfiguration in Ihre CODE_RENOVATE.JSON oder CODE_RENOVATE-CONFIG.JS Datei ein.
+To use one of the configurations in your project, simply add the corresponding configuration to your _renovate.json_ or _renovate-config.js_ file.
 
 ### Beispiel
 
@@ -12,4 +12,4 @@ Um eine der Konfigurationen in Ihrem Projekt zu verwenden, fügen Sie einfach di
 { "extends": [ "github>IhrBenutzername/renovate-config" ] }
 ```
 
-Ersetzen Sie IhrBenutzername durch Ihren tatsächlichen GitHub-Benutzernamen oder die Organisation, unter der das Repository gehostet wird.
+Replace **YourUsername** with your actual GitHub username or the organization under which the repository is hosted.
