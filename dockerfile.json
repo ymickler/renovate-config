@@ -1,0 +1,37 @@
+{
+    "$schema":"https://docs.renovatebot.com/renovate-schema.json",
+    "extends":[
+       "local>ymickler/renovate-config:base"
+    ],
+    "packageRules":[
+       {
+          "matchManagers":[
+             "dockerfile"
+          ],
+          "matchUpdateTypes":[
+             "major"
+          ],
+          "labels":[
+             "dockerfile-major-update"
+          ],
+          "branchTopic":"dockerfile-major",
+          "automerge": false
+       },
+       {
+          "matchManagers":[
+             "dockerfile"
+          ],
+          "matchUpdateTypes":[
+             "minor",
+             "patch"
+          ],
+          "labels":[
+             "docker-minor-patch-update"
+          ],
+          "groupName": "Dockerfile minor & patch",
+          "groupSlug": "dockerfile-minor-patch",
+          "branchTopic":"dockerfile-minor-patch",
+          "automerge": true
+       }
+    ]
+ }
