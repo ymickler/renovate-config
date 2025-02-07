@@ -3,9 +3,6 @@
     "extends":[
        "local>ymickler/renovate-config:base"
     ],
-    "description": "This cron expression schedules a task to run daily at 12 AM and 12 PM",
-    "schedule": ["0 0,12 * * *"],
-    "enabledManagers": ["github-actions"],
     "packageRules":[
        {
           "matchManagers":[
@@ -20,7 +17,7 @@
           ],
           "groupName": "GitHub actions minor & patch",
           "groupSlug": "gitHub-actions-minor-patch",
-          "pinDigests":true,
+          "pinDigests": true,
           "automerge": false
        },
        {
@@ -33,8 +30,8 @@
           "matchUpdateTypes":[
              "major"
           ],
-          "pinDigests":true,
-          "automerge": false
+          "pinDigests": true,
+          "automerge": true
        }
     ]
  }
