@@ -1,6 +1,6 @@
 # renovate-config
 
-This repository contains shareable config presets for: [Renovate Github App](https://developer.mend.io/github/ymickler)
+This repository contains shareable config presets for: [Renovate Github App](https://developer.mend.io/)
 
 ## Verwendung
 
